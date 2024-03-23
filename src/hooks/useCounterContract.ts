@@ -16,8 +16,8 @@ export function useCounterContract() {
     const contract = new Counter(
       Address.parse(
         network === CHAIN.MAINNET
-          ? "EQBPEDbGdwaLv1DKntg9r6SjFIVplSaSJoJ-TVLe_2rqBOmH"
-          : "EQBYLTm4nsvoqJRvs_L-IGNKwWs5RKe19HBK_lFadf19FUfb"
+          ? "0QCX3o_8tUxrAScwYHVf5at9guv-2NgTyKq5ADxLRREhVgJK"
+          : "0QCX3o_8tUxrAScwYHVf5at9guv-2NgTyKq5ADxLRREhVgJK"
       ) // replace with your address from tutorial 2 step 8
     );
     return client.open(contract) as OpenedContract<Counter>;

@@ -1,0 +1,28 @@
+.vertical-stepper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.step {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.step.active {
+  background-color: #eee;
+}
+
+.step-title {
+  font-weight: bold;
+}
+
+.step-description {
+  margin-top: 5px;
+}
+
+.step-text {
+  padding-left: 10px;
+}

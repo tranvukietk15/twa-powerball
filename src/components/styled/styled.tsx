@@ -6,7 +6,7 @@ export const Card = styled.div`
   background-color: white;
 
   @media (prefers-color-scheme: dark) {
-    background-color: #111;
+    background-color: #242829;
   }
 `;
 
