@@ -16,7 +16,7 @@ export function TransferTon() {
   const { value, address } = useCounterContract();
 
   const [tonAmount, setTonAmount] = useState("");
-  const tonRecipient = "0QCX3o_8tUxrAScwYHVf5at9guv-2NgTyKq5ADxLRREhVgJK";
+  const tonRecipient = "UQCX3o_8tUxrAScwYHVf5at9guv-2NgTyKq5ADxLRREhVrnA";
   // const tonRecipient = "UQBO3Pj5S5dI-M1XKpWgitW3uPcp-HUwVyQpX9plvjzIuUKu";
   const handleChange = (event: any) => {
     const newValue = event.target.value;
