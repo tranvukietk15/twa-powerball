@@ -1,11 +1,4 @@
-import { connected } from "process";
-import {
-	Card,
-	FlexBoxCol,
-	FlexBoxRow,
-	Ellipsis,
-	Button,
-} from "./styled/styled";
+import { Card, FlexBoxCol } from "./styled/styled";
 import "./DegonIntro.css";
 import dagonIcon from "../degon.png";
 

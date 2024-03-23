@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import "./VerticalStepper.css";
 import { Card, FlexBoxCol } from "./styled/styled";
 

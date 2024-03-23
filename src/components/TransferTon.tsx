@@ -1,10 +1,8 @@
 import { useState } from "react";
-import styled from "styled-components";
 import { Address, toNano } from "ton";
 import { useTonConnect } from "../hooks/useTonConnect";
-import { Card, FlexBoxCol, FlexBoxRow, Button, Input } from "./styled/styled";
+import { Card, FlexBoxCol, FlexBoxRow, Button } from "./styled/styled";
 import "./NumberInput.css";
-import TonWeb from "tonweb";
 import { useCounterContract } from "../hooks/useCounterContract";
 // import { TonConnectButton } from "@tonconnect/ui-react";
 
